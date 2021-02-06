@@ -1,4 +1,4 @@
-name: 'gh-actions-pr-reviewstatus-labeler'
+name: 'gh-actions-clubhouse-labeler'
 description: 'Sync labels between Clubhouse Story and its linked Pull Request'
 author: 'Ambler'
 branding:
