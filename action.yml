@@ -1,0 +1,25 @@
+name: 'gh-actions-pr-reviewstatus-labeler'
+description: 'Sync labels between Clubhouse Story and its linked Pull Request'
+author: 'Ambler'
+branding:
+  icon: 'award'
+  color: 'purple'
+runs:
+  using: 'node12'
+  main: 'dist/index.js'
+inputs:
+  github-token:
+    required: true
+    description: 'Github OAuth token'
+  clubhouse-token:
+    required: true
+    description: 'Clubhouse token'
+  create-if-missing:
+    required: false
+    description: 'Create label on Clubhouse if missing (Default: false)'
+  synced-clubhouse-labels:
+    required: false
+    description: 'List of labels to be synced (Default: all Clubhouse labels that exist on GitHub repository)'
+  label-ch-gh-map:
+    required: false
+    description: 'Map of the label names on Clubhouse and their corresponding name on Github'
