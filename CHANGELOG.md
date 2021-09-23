@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.2.0](https://github.com/amblerhq/gh-actions-clubhouse-labeler/compare/v1.1.0...v1.2.0) (2021-09-23)
+
+
+### Features
+
+* update regex to match shortcut pattern ([#158](https://github.com/amblerhq/gh-actions-clubhouse-labeler/issues/158)) ([4a18da9](https://github.com/amblerhq/gh-actions-clubhouse-labeler/commit/4a18da94ba9851282a12b89aa880155c8a384540))
+
 ## 1.1.0 (2021-02-06)
 
 
