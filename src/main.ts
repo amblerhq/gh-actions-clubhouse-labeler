@@ -115,7 +115,7 @@ async function run(): Promise<void> {
 
 function extractStoryIds(content: string): string[] {
   // Matching ch42, sc42 and sc-42 pattern
-  const regex = /((?<=(sc|ch))|(?<=(sc-)))\d{1,7}/g
+  const regex = /((?<=(sc|ch))|(?<=(sc-)))\d{1,7}/gm
   const all = content.match(regex)
   const unique = [...new Set(all)]
   return unique
