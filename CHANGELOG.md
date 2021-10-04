@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.2.2](https://github.com/amblerhq/gh-actions-clubhouse-labeler/compare/v1.2.1...v1.2.2) (2021-10-04)
+
+
+### Bug Fixes
+
+* fix multine desc id detection ([b878675](https://github.com/amblerhq/gh-actions-clubhouse-labeler/commit/b878675b916bf9a776c2f261ad7511c6c482e80d))
+
 ### [1.2.1](https://github.com/amblerhq/gh-actions-clubhouse-labeler/compare/v1.2.0...v1.2.1) (2021-10-04)
 
 
