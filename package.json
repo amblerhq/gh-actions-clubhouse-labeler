@@ -1,6 +1,6 @@
 {
   "name": "gh-actions-clubhouse-labeler",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "private": true,
   "description": "Github Action to sync labels between Clubhouse Story and its linked Pull Request",
   "main": "lib/main.js",

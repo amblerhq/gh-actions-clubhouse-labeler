@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.2.1](https://github.com/amblerhq/gh-actions-clubhouse-labeler/compare/v1.2.0...v1.2.1) (2021-10-04)
+
+
+### Bug Fixes
+
+* fix shortcut pattern with hypen ([#162](https://github.com/amblerhq/gh-actions-clubhouse-labeler/issues/162)) ([48688f9](https://github.com/amblerhq/gh-actions-clubhouse-labeler/commit/48688f9454b800b94e50860a8b8627c50662331c))
+
 ## [1.2.0](https://github.com/amblerhq/gh-actions-clubhouse-labeler/compare/v1.1.0...v1.2.0) (2021-09-23)
 
 
