@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.2.3](https://github.com/amblerhq/gh-actions-clubhouse-labeler/compare/v1.2.2...v1.2.3) (2021-10-04)
+
+
+### Bug Fixes
+
+* fix built ([483f68f](https://github.com/amblerhq/gh-actions-clubhouse-labeler/commit/483f68f9ccf79e5e3d8794a24cc5332e01052c98))
+
 ### [1.2.2](https://github.com/amblerhq/gh-actions-clubhouse-labeler/compare/v1.2.1...v1.2.2) (2021-10-04)
 
 
