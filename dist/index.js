@@ -120,7 +120,8 @@ function run() {
  * @return {Array} - Clubhouse story IDs 1-7 digit strings.
  */
 function extractStoryIds(content) {
-    const regex = /(?<=(sc|ch))\d{1,7}/g;
+    // Matching ch42, sc42 and sc-42 pattern
+    const regex = /((?<=(sc|ch))|(?<=(sc-)))\d{1,7}/gm;
     const all = content.match(regex);
     const unique = [...new Set(all)];
     return unique;
