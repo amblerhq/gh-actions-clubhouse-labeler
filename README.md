@@ -77,3 +77,4 @@ jobs:
 ```
 
 This workflow will synchronize only `📖 doc` Clubhouse label, create it if needed and link it from `documentation` label on GitHub
+1
