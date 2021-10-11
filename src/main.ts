@@ -70,7 +70,9 @@ async function run(): Promise<void> {
     } = pushPayload.pull_request
 
     const content = `${number} ${title} ${body} ${ref}`
-    core.info(`Analyzing PR to indentify linked Clubhouse stories: ${content}`)
+    core.info(
+      `Analyzing the PR to indentify linked Clubhouse stories: ${content}`
+    )
     const storyIds = extractStoryIds(content)
     if (!storyIds.length) {
       core.info(`No linked Clubhouse story found`)
