@@ -114,9 +114,12 @@ async function run(): Promise<void> {
  */
 
 function extractStoryIds(content: string): string[] {
+  core.info(`extractStoryIds ${content}`)
   // Matching ch42, sc42 and sc-42 pattern
   const regex = /((?<=(sc|ch))|(?<=(sc-)))\d{1,7}/gm
+  core.info(`regex ${regex.toString()}`)
   const all = content.match(regex)
+  core.info(`all ${JSON.stringify(all)}`)
   const unique = [...new Set(all)]
   return unique
 }
