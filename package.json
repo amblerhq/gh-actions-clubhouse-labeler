@@ -37,7 +37,7 @@
   "dependencies": {
     "@actions/core": "^1.2.6",
     "@actions/github": "^4.0.0",
-    "clubhouse-lib": "^0.10.0"
+    "clubhouse-lib": "^0.13.0"
   },
   "devDependencies": {
     "@octokit/webhooks": "^7.21.0",
