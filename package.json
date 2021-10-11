@@ -5,6 +5,7 @@
   "description": "Github Action to sync labels between Clubhouse Story and its linked Pull Request",
   "main": "lib/main.js",
   "scripts": {
+    "prepare": "husky install",
     "build": "tsc",
     "format": "prettier --write **/*.ts",
     "format-check": "prettier --check **/*.ts",
@@ -13,8 +14,7 @@
     "all": "npm run build && npm run format && npm run lint && npm run package",
     "test:git-dirty": "[[ -z $(git status -s) ]] || (echo 'Your git worktree is dirty. Please stash or remove.' && /usr/bin/false)",
     "release": "yarn test:git-dirty && yarn standard-version",
-    "push": "git push origin :refs/tags/v1 && git tag -fa v1 -m v1 && git push --follow-tags origin master",
-    "pre-commit": "yarn all"
+    "push": "git push origin :refs/tags/v1 && git tag -fa v1 -m v1 && git push --follow-tags origin master"
   },
   "husky": {
     "hooks": {
@@ -47,7 +47,7 @@
     "eslint": "^7.19.0",
     "eslint-plugin-github": "^4.1.1",
     "eslint-plugin-prettier": "^3.3.1",
-    "husky": "^4.3.8",
+    "husky": "^7.0.2",
     "js-yaml": "^4.0.0",
     "prettier": "2.2.1",
     "standard-version": "^9.1.0",
